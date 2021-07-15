@@ -52,10 +52,10 @@ Why would anyone even want to use this app? Hush yo mouth! Want to be introduced
 
 Jazzy made it? No, no he didn't. This beautiful product has been brought to you by the thoughtful and caring people at Furious 6ix. Let's get to know them..
 
-- Luis
-- Kaz
-- Jason
-- Zach
+- [Luis](https://github.com/luiscabrera77)
+- [Kaz](https://github.com/justbekazu)
+- [Jason](https://github.com/jayeebee)
+- [Zach](https://github.com/zpuckett)
 - Freddy
 
 <br>
@@ -66,4 +66,6 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 
 ### Want to see it work?
 
-www.Dokay.com
+[DOKAY](www.Dokay.com)
+
+[DOKAY Github](https://github.com/luiscabrera77/dokay.git)
