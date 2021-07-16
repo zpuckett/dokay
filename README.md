@@ -1,8 +1,8 @@
-# DOKAY!!!
+![logo](/logo/dokaylogo.png)
 
 <BR>
 
-## match maker match maker make me a match already!
+## Match maker match maker make me a match already!
 
 ---
 
@@ -10,45 +10,57 @@
 
 ## GLOSSARY
 
-- In the beginning
-- Then there was
-- How it works
-- Why it works
-- Who made it work
-- What made it work
-- Want to see it work?
+- [In the beginning](##In-the-beginning)
+- [Then there was](##Then-there-was)
+- [How it works](##How-it-works)
+- [Why it works](##Why-it-works)
+- [Who made it work](##Who-made-it-work)
+- [What made it work](##What-made-it-work)
+- [Want to see it work?](##Want-to-see-it-work?)
+
+---
 
 <br>
 
-### In the beginning...
+## In the beginning
 
 There were bands with songs, and there were visual artists with... yes, art. Those two camps had didn't always have the easiest time getting together... though I think they realy wanted to. For eons the two
 would produce beautiful work and long to share it with the other party... but limited searches, restrictive and exclusive and costly, sites dictated who saw who... it wasn't a pretty site.
 
+---
+
 <br>
 
-### Then there was...
+## Then there was
 
 Dokay.com saw the need and filled it.
 With the help of a few daft thumbs and opinonated faces, Dokay did what others dared not to do... didn't think was possible (Wayne). And now the arts can play freely, in a random world, they have found a home.
 
-<br>
-
-### How it works
-
-It's the simpliest of concepts, even your little brother could do it. All users make a basic user profile, then they get to swiping. For those that want to submit, they can do it in their profile. A simple song submit form for the musically inclined, and a jpeg upload form for those with images (please, don't submit art that isn't yours or that you don't have absolute rights to share, we'll ban you and then talk crap about you to others... really). Swipping is simple enough; to the left if you don't like it, to the right if you do, and then down if you find the image innapropriate (this will help us crack down on people trying to advertise their only fans page).
-
-Once you log in, you'll be given a random song, then you get to match the song with the image you think best represents it. You'll hear the song until you swipe right and match it, then you'll be given a new song and the dance starts all over again.
+---
 
 <br>
 
-### Why it works
+## How it works
 
-Why would anyone even want to use this app? Hush yo mouth! Want to be introduced to new music? Music that isn't being played on heavy rotation (but maybe should be?) and by artists that could use some real support? How about looking at beautiful images and finding inspiration thru the eyes of visual artists? Any of that sound appealing? If it doesn't... I'm sure you should go back to looking at your flow charts and stock graphs. For the rest of us that are perhaps, wanting a dose of something new and different, Dokay is definitely something you should download and utilize, either as an artist wanting to share their works or as a user wanting to get some fresh feels (or heck, be both).
+A user will set up a simple profile, this account will be good for individuals wanting to listen and see, or for artists wanting to use the app. After a user sets up an account and logs in, the home page will randomly select music and present images, the user can like or dislike images based on the music they hear.
+
+For aritsts wishing to run a campaign, they can go to their profile and link their tracks from their [soundcloud](www.soundcloud.com) account, and then they can upload up to 10 images.
+
+artists can see their results, and they can archive or delete campaigns once they've achieved their goals.
+
+---
 
 <br>
 
-### Who made it work
+## Why it works
+
+This app works for both users just wanting to engage their favorite artists, as well as listen to new music, and artists wishing to engage their fans and recieve realtime feedback on topics like branding, image, and perception.
+
+---
+
+<br>
+
+## Who made it work
 
 Jazzy made it? No, no he didn't. This beautiful product has been brought to you by the thoughtful and caring people at Furious 6ix. Let's get to know them..
 
@@ -56,16 +68,26 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 - [Kaz](https://github.com/justbekazu)
 - [Jason](https://github.com/jayeebee)
 - [Zach](https://github.com/zpuckett)
+- [DJ]()
 - Freddy
 
-<br>
-
-### What made it work
+---
 
 <br>
 
-### Want to see it work?
+## What made it work
+
+---
+
+<br>
+
+## Want to see it work?
 
 [DOKAY](www.Dokay.com)
 
 [DOKAY Github](https://github.com/luiscabrera77/dokay.git)
+
+<br>
+<br>
+
+##### ©2021 The furious 6ix
