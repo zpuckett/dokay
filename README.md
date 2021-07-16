@@ -11,12 +11,12 @@
 ## GLOSSARY
 
 - [In the beginning](##In-the-beginning)
-- [Then there was](##Then-there-was)
-- [How it works](##How-it-works)
-- [Why it works](##Why-it-works)
-- [Who made it work](##Who-made-it-work)
-- [What made it work](##What-made-it-work)
-- [Want to see it work?](##Want-to-see-it-work?)
+- [Then there was](#then-there-was)
+- [How it works](#how-it-works)
+- [Why it works](#why-it-works)
+- [Who made it work](#who-made-it-work)
+- [What made it work](#what-made-it-work)
+- [Want to see it work?](#want-to-see-it-work?)
 
 ---
 
@@ -44,7 +44,7 @@ With the help of a few daft thumbs and opinonated faces, Dokay did what others d
 
 A user will set up a simple profile, this account will be good for individuals wanting to listen and see, or for artists wanting to use the app. After a user sets up an account and logs in, the home page will randomly select music and present images, the user can like or dislike images based on the music they hear.
 
-For aritsts wishing to run a campaign, they can go to their profile and link their tracks from their [soundcloud](www.soundcloud.com) account, and then they can upload up to 10 images.
+For aritsts wishing to run a campaign, they can link tracks (up to 5) from their [soundcloud](https://www.soundcloud.com) account, and then upload up to 10 images to go with each track.
 
 artists can see their results, and they can archive or delete campaigns once they've achieved their goals.
 
@@ -54,7 +54,7 @@ artists can see their results, and they can archive or delete campaigns once the
 
 ## Why it works
 
-This app works for both users just wanting to engage their favorite artists, as well as listen to new music, and artists wishing to engage their fans and recieve realtime feedback on topics like branding, image, and perception.
+This app works for both, users just wanting to interact with their favorite artists, as well as listen to new music, and artists wishing to engage their fans and recieve realtime feedback on topics like branding, image, marketing, and perception.
 
 ---
 
@@ -76,6 +76,9 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 <br>
 
 ## What made it work
+
+- [Bootstrap](https://getbootstrap.com/)
+- [MongoDB](https://www.mongodb.com/)
 
 ---
 
