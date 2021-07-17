@@ -79,6 +79,7 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 
 - [Bootstrap](https://getbootstrap.com/)
 - [MongoDB](https://www.mongodb.com/)
+- [Font Awesome](https://fontawesome.com/)
 
 ---
 
