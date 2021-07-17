@@ -1,0 +1,22 @@
+{
+  "name": "dokay",
+  "version": "1.0.0",
+  "description": "![logo](/logo/dokaylogo.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiscabrera77/dokey.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiscabrera77/dokey/issues"
+  },
+  "homepage": "https://github.com/luiscabrera77/dokey#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
