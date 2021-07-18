@@ -68,7 +68,6 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 - [Kaz](https://github.com/justbekazu)
 - [Jason](https://github.com/jayeebee)
 - [Zach](https://github.com/zpuckett)
-- [DJ]()
 - Freddy
 
 ---
@@ -80,6 +79,7 @@ Jazzy made it? No, no he didn't. This beautiful product has been brought to you 
 - [Bootstrap](https://getbootstrap.com/)
 - [MongoDB](https://www.mongodb.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [JQuery](https://jquery.com/)
 
 ---
 
