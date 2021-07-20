@@ -1,12 +1,12 @@
 import { Container } from 'react-bootstrap'
 
-const Profile = () => {
+const Campaign = () => {
 
     return (
         <Container>
-        <h1>Your Profile</h1>
+        <h1>Your Campaigns</h1>
         </Container>
     )
 }
     
-export default Profile;
+export default Campaign;
