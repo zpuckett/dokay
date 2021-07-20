@@ -7,7 +7,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
     <script src="https://kit.fontawesome.com/c673e2b7ee.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+
 
     <title>Dokay</title>
 </head>
@@ -74,6 +76,7 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="myLeftCtn">
+
                     <form class="sign-up text-center">
                           <header>Make a new account</header>
                           <div class="form-group">
@@ -81,7 +84,13 @@
                               <input class="myInput" type="text" placeholder="Username"
                               id="username"required>
                               <div class="invalid-feedback">Must be filled out</div>
-                          </div>  
+                          </div> 
+                          
+                          <div class="form-group">
+                              <i class ="fas fa-envelope"></i>
+                              <input class ="myInput" placeholder="Email" type="text"
+                              id="email" required>                       
+                            </div>
                     </form>
                 </div>
             </div>
