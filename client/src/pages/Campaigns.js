@@ -2,8 +2,16 @@ import { Container, Jumbotron, Card, CardColumns, Button } from 'react-bootstrap
 import React from 'react'
 import { GET_ME } from '../utils/queries'
 import { useMutation, useQuery } from '@apollo/react-hooks'
-import vik from '../assets/vik.jpg';
-import vik2 from '../assets/vik2.jpg'
+import pic from '../assets/images/card1.png';
+import pic2 from '../assets/images/card2.png';
+import pic3 from '../assets/images/card3.png';
+import pic4 from '../assets/images/card4.png';
+import pic5 from '../assets/images/card5.png';
+import pic6 from '../assets/images/card6.png';
+import pic7 from '../assets/images/card7.png';
+import pic8 from '../assets/images/card8.png';
+import pic9 from '../assets/images/card9.png';
+import pic10 from '../assets/images/card10.png'
 
 const Campaign = () => {
 
@@ -58,12 +66,20 @@ const Campaign = () => {
                 <center><Card.Link variant="primary" href="/profile">See Results</Card.Link></center>
                 </Card>
             </Container>
-            <Container>
+            <Container >
                 <h2>Your Saved Artwork</h2>
-            <CardColumns>                
-            <Card.Body><img className="img" height="10%" width="10%"  src={vik}  /></Card.Body>
-            <Card.Body><img className="img" height="10%" width="10%"  src={vik2}  /></Card.Body>
-            </CardColumns>
+            <Container >                
+            <Card.Body><img className="img" src={pic}  /></Card.Body>
+            <Card.Body><img className="img" src={pic2}  /></Card.Body>
+            <Card.Body><img className="img" src={pic3}  /></Card.Body>
+            <Card.Body><img className="img" src={pic4}  /></Card.Body>
+            <Card.Body><img className="img" src={pic5}  /></Card.Body>
+            <Card.Body><img className="img" src={pic6}  /></Card.Body>
+            <Card.Body><img className="img" src={pic7}  /></Card.Body>
+            <Card.Body><img className="img" src={pic8}  /></Card.Body>
+            <Card.Body><img className="img" src={pic9}  /></Card.Body>
+            <Card.Body><img className="img" src={pic10}  /></Card.Body>
+            </Container>
             </Container>
         
         <CardColumns>

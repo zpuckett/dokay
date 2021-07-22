@@ -31,7 +31,7 @@ const Profile = () => {
     return (
         <Container>
         <h1>Your Profile</h1>
-        <Button /*className='btn-block btn-danger' onClick={() => handleDeleteUser(user.userId)}*/ >
+        <Button onClick={() => console.log("test")}/*className='btn-block btn-danger' onClick={() => handleDeleteUser(user.userId)}*/ >
          Delete Account 
          </Button>
         </Container>

@@ -38,25 +38,15 @@ module.exports = {
       const token = signToken(user);
       res.json({ token, user });
     },
-
-    async deleteBook({ user, params }, res) {
-      const updatedUser = await User.findOneAndUpdate(
-        { _id: user._id },
-        { $pull: { savedBooks: { bookId: params.bookId } } },
-        { new: true }
-      );
-      if (!updatedUser) {
-        return res.status(404).json({ message: "Couldn't find user with this id!" });
-      }
-      return res.json(updatedUser);
-    },
-  };
-  
-  exports.delete = async(req,res)=>{
-    try{
-      await User.findByIdAndDelete(req.userId)
-      res.json({msg:"User Deleted Successfully"})
-    } catch(error) {
-      res.staus(500).json({err:error.message||"Error while deleting"})
-    }
   }
+  
+  exports.deleteUser = (req, res, next) => {
+    User.remove({ _id: req.params.userID })
+      .then((result) => {
+        if (result.length > 0)
+          res.status(200).json({ message: "User has been deleted" });
+        else res.status(404).json({ message: "No user was found with this ID" });
+      })
+      .catch((error) => res.status(200).json(error));
+  }
+  
