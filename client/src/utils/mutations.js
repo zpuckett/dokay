@@ -44,3 +44,11 @@ export const ADD_IMAGE = gql`
     }
 `;
 
+export const DELETE_USER = gql`
+    mutation deleteUser($id: ID!) {
+        deleteUser(id: $id) {
+            _id
+            username
+        }
+    }
+`;

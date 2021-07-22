@@ -39,20 +39,6 @@ module.exports = {
       res.json({ token, user });
     },
 
-    async saveBook({ user, body }, res) {
-      console.log(user);
-      try {
-        const updatedUser = await User.findOneAndUpdate(
-          { _id: user._id },
-          { $addToSet: { savedBooks: body } },
-          { new: true, runValidators: true }
-        );
-        return res.json(updatedUser);
-      } catch (err) {
-        console.log(err);
-        return res.status(400).json(err);
-      }
-    },
     async deleteBook({ user, params }, res) {
       const updatedUser = await User.findOneAndUpdate(
         { _id: user._id },
@@ -66,3 +52,11 @@ module.exports = {
     },
   };
   
+  exports.delete = async(req,res)=>{
+    try{
+      await User.findByIdAndDelete(req.userId)
+      res.json({msg:"User Deleted Successfully"})
+    } catch(error) {
+      res.staus(500).json({err:error.message||"Error while deleting"})
+    }
+  }
