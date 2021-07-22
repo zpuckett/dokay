@@ -1,6 +1,8 @@
 const { Schema, model } = require('mongoose');
 const bcrypt = require('bcrypt');
 
+const songSchema = require("./Song");
+
 const userSchema = new Schema(
     {
       username: {
@@ -26,6 +28,7 @@ const userSchema = new Schema(
           ref: 'Votes'
         }
       ],
+      savedSongs: [songSchema]
     },
     {
       toJSON: {

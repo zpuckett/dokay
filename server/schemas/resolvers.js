@@ -40,6 +40,19 @@ const resolvers = {
             return { token, user };
           },
 
+          /*addVote: async (parent, { artId, reactionBody }, context) => {
+            if (context.user) {
+              const updatedArt = await Art.findOneAndUpdate(
+                { _id: ArtId },
+                { $push: { reactions: { reactionBody, username: context.user.username } } },
+                { new: true, runValidators: true }
+              );
+      
+              return updatedArt;
+            }
+      
+            throw new AuthenticationError('You need to be logged in!');
+          },*/
 
 
         }

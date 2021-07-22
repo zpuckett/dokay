@@ -20,6 +20,13 @@ const typeDefs = gql`
     token: ID!
     user: User
   }
+
+  # type Vote { 
+   # _id: ID!
+   # vote: Boolean!
+   # username: String
+ # }
+
 `;
 
 module.exports = typeDefs;

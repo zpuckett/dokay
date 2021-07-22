@@ -24,7 +24,10 @@ const AppNavbar = () => {
                   {Auth.loggedIn() ? (
                     <>
                       <Nav.Link as={Link} to='/profile'>
-                        Your Profile
+                        Profile
+                      </Nav.Link>
+                      <Nav.Link as={Link} to='/campaigns'>
+                        Campaigns
                       </Nav.Link>
                       <Nav.Link onClick={Auth.logout}>Logout</Nav.Link>
                     </>
