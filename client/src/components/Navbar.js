@@ -11,7 +11,7 @@ const AppNavbar = () => {
         <>
           <Navbar bg='dark' variant='dark' expand='lg'>
             <Container fluid>
-              <Navbar.Toggle aria-controls='navbar' />
+              <Navbar aria-controls='navbar' />
               <Navbar.Collapse id='navbar'>
                 <Nav className='ml-auto'>
                   <Nav.Link as={Link} to='/'>
