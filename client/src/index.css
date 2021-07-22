@@ -2,9 +2,9 @@
   --primary: #535a5a;
   --secondary: #F3F4B1;
   --tertiary: #011110;
-  --quatrinary: #116963;
+  --quatrinary: #1A5B71;
   --light: #F3F4B1;
-  --dark: #54818E;
+  --dark: #1A5B71;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Georgia', sans-serif;
+  font-family: 'Georgia';
   font-weight: 700;
   margin: 5px 0;
   line-height: 1.25;
